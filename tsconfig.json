@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "outDir":"./js",
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "declaration": true,// 是否生成声明文件
+    "declarationDir": "lib",// 声明文件打包的位置
+    "types": [
+      "webpack-env"
+    ],
+    "paths": {
+      "@/*": [
+        "examples/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "examples/**/*.ts",
+    "examples/**/*.tsx",
+    "examples/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "tests/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
