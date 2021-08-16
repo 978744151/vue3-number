@@ -5,7 +5,8 @@
       :data-time="time"
       class="number-grow"
       :data-value="value"
-    ></span>
+      >0</span
+    >
   </div>
 </template>
 
@@ -30,7 +31,7 @@ export default defineComponent({
     },
   },
   mounted() {
-    console.log(790);
+    console.log(456);
   },
   setup(props: ISwitchProps) {
     onMounted(() => {

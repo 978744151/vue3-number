@@ -1,6 +1,6 @@
 {
   "name": "cris-animate-number-vuets",
-  "version": "0.2.9",
+  "version": "0.3.1",
   "main": "lib/index.js",
   "typings": "types/index.d.ts",
   "publisher": "978744151@qq.com",
